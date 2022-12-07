@@ -25,7 +25,7 @@ public class BurgerService {
 		return burgerRepo.save(burger);
 	}
 	//gets one burger
-	public Burger findBuger(Long id) {
+	public Burger findBurger(Long id) {
 		Optional<Burger> optionalBurger = burgerRepo.findById(id);
 		if(optionalBurger.isPresent()) {
 			return optionalBurger.get();

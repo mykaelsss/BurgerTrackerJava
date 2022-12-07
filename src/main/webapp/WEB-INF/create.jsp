@@ -32,5 +32,6 @@
 		</div>
 		<input type="submit" value="Submit"/>
 	</form:form> 
+	<a href="/">Go Back</a>
 </body>
 </html>
